@@ -1,7 +1,7 @@
 # Computer Vision - Style Transfer
 I worked on this project with the Statistical Modeling and Deep Learning Lab in Undergraduate Lab at Berkeley.  
 
-We constructed a convolutional neural network using PyTorch to identify objects in images. Using this, we then synthesized a texture from a Van Gogh artwork while preserving the content of our base image.
+Using PyTorch, we deployed a VGG convolutional neural network to identify objects in images. We then synthesized a texture from a Van Gogh artwork while preserving the content of our base image.
 
 # Original Images
 Content Image:
