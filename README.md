@@ -1,7 +1,7 @@
 # Computer Vision - Style Transfer
 I worked on this project with the Statistical Modeling and Deep Learning Lab in Undergraduate Lab at Berkeley.  
 
-Using NumPy and PyTorch, we trained a linear model to extract features from content and style images while minimizing loss.
+We constructed a convolutional neural network using PyTorch to identify objects in images. Using this, we then synthesized a texture from a Van Gogh artwork while preserving the content of our base image.
 
 # Original Images
 Content Image:
