@@ -61,8 +61,6 @@ class ContentLoss(nn.Module):
         Keyword arguments:
         x -- a selected output layer of feeding the pastiche through the cnn
         """
-        #import ipdb
-        #ipdb.set_trace()
         return self.weight * self.loss(x, self.target)
 
 
@@ -75,11 +73,6 @@ class GramMatrix(nn.Module):
         Keyword arguments:
         x - a B x C x W x H sized tensor, it should be resized to B x C x W*H
         """
-        #X = x.view(x.size(0), x.size(1), x.size(2)*x.size(3))
-        #X_t = x.view(x.size(0), x.size(2)*x.size(3), x.size(1))
-        #import ipdb
-        #ipdb.set_trace()
-       
         X = x.view(x.size(0), x.size(1), x.size(2) * x.size(3))
         return torch.bmm(X, X.transpose(2, 1)) / (x.size(2) * x.size(3))
 
