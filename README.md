@@ -11,7 +11,7 @@ Style Image:
 ![Alt text](Images/vangogh_starry_night.jpg)
 
 # Visualization / Results
-After running style_transfer.py on our images, we can see our minimization of loss with each iteration of of our model.  This After running numerous iterations, we eventually produced the content below.
+After running style_transfer.py on our images, we can see our minimization of loss with each iteration of of our model.  This After running numerous iterations, we produced the content below.
 
 ![Alt text](Images/loss.png)
 ![Alt text](Images/style_transfer_output.png)
